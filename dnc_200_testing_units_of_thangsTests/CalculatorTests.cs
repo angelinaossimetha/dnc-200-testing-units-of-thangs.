@@ -16,37 +16,49 @@ namespace dnc_200_testing_units_of_thangs.Tests
         [TestMethod()]
         public void AddTest()
         {
-            float a = 3f;
-            float b = 2f;
-            float c = 5f;
-            Assert.AreEqual(c, calc.Add(a, b));
+            double a = 3f;
+            double b = 2f;
+            double expectedC = 5f;
+
+            double actualC = calc.Add(a, b);
+
+            Assert.AreEqual(expectedC, actualC);
         }
 
         [TestMethod()]
         public void SubtractTest()
         {
-            float a = 3f;
-            float b = 2f;
-            float c = 1f;
-            Assert.AreEqual(c, calc.Subtract(a, b));
+            double a = 3f;
+            double b = 2f;
+            double expectedC = 1f;
+
+            double actualC = calc.Subtract(a, b);
+
+            Assert.AreEqual(expectedC, actualC);
         }
 
         [TestMethod()]
         public void DivideTest()
         {
-            float a = 3f;
-            float b = 2f;
-            float c = 1.5f;
-            Assert.AreEqual(c, calc.Divide(a, b));
+            double a = 3f;
+            double b = 2f;
+            double expectedC = 1.5f;
+
+            double actualC = calc.Divide(a, b);
+
+            Assert.AreEqual(expectedC, actualC);
         }
 
         [TestMethod()]
         public void MultiplyTest()
         {
-            float a = 3f;
-            float b = 2f;
-            float c = 6f;
-            Assert.AreEqual(c, calc.Multiply(a, b));
+            double a = 3f;
+            double b = 2f;
+            double expectedC = 6f;
+
+            double actualC = calc.Multiply(a, b);
+
+            Assert.AreEqual(expectedC, actualC);
         }
     }
 }

@@ -8,19 +8,19 @@ namespace dnc_200_testing_units_of_thangs
 {
     public class Calculator
     {
-        public float Add(float a, float b)
+        public double Add(double a, double b)
         {
             return a + b;
         }
-        public float Subtract(float a, float b)
+        public double Subtract(double a, double b)
         {
             return a - b;
         }
-        public float Divide(float a, float b)
+        public double Divide(double a, double b)
         {
             return a / b;
         }
-        public float Multiply(float a, float b)
+        public double Multiply(double a, double b)
         {
             return a * b;
         }
