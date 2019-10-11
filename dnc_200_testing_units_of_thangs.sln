@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dnc_200_testing_units_of_thangs", "dnc_200_testing_units_of_thangs\dnc_200_testing_units_of_thangs.csproj", "{57F67856-8789-40EC-A596-FE062BA70B71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dnc_200_testing_units_of_thangsTests", "dnc_200_testing_units_of_thangsTests\dnc_200_testing_units_of_thangsTests.csproj", "{B5C42BC7-D8C5-44D0-BCF7-4EDE1CD8B6EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{57F67856-8789-40EC-A596-FE062BA70B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F67856-8789-40EC-A596-FE062BA70B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F67856-8789-40EC-A596-FE062BA70B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C42BC7-D8C5-44D0-BCF7-4EDE1CD8B6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C42BC7-D8C5-44D0-BCF7-4EDE1CD8B6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C42BC7-D8C5-44D0-BCF7-4EDE1CD8B6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C42BC7-D8C5-44D0-BCF7-4EDE1CD8B6EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
