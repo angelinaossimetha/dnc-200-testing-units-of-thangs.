@@ -114,10 +114,11 @@ public class Mortgage
 ```
 
 You will also need to create another TestClass in the test project. Here is some code to get you started:
+#### MortgageTests.cs
 
 ```
 [TestClass()]
-public class CalculatorTests
+public class MortgageTests
 {
     [TestMethod()]
     public void MonthlyPaymentsTest()
@@ -126,14 +127,6 @@ public class CalculatorTests
     }
 }
 ```
-test/unit/mortgage.spec.js
-
-const expect = require('chai').expect;
-const Mortgage = require('../../src/js/lib/Mortgage');
-
-describe('Mortgage Calculator', () => {
-
-});
 
 Your task is to write at least 4 unit tests
 ## Exit Criteria
